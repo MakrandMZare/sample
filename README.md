@@ -53,6 +53,7 @@ If your iOS bundle identifier were `com.example.MyApp` and your Auth0 Domain wer
 https://example.us.auth0.com/ios/com.example.MyApp/callback,
 com.example.MyApp://example.us.auth0.com/ios/com.example.MyApp/callback
 ```
+
 </details>
 
 > [!IMPORTANT]
@@ -112,6 +113,7 @@ If your Auth0 Domain were `example.us.auth0.com`, then this value would be:
 ```text
 webcredentials:example.us.auth0.com
 ```
+
 </details>
 
 ### Configure the Team ID and bundle identifier
