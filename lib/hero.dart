@@ -21,6 +21,7 @@ class HeroWidget extends StatelessWidget {
       Expanded(
           child: Container(
               margin: const EdgeInsets.all(margin),
+              // debugShowCheckedModeBanner: false,
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -32,7 +33,7 @@ class HeroWidget extends StatelessWidget {
                           height: 0.8,
                           fontWeight: FontWeight.w800,
                         )),
-                    Text('Sample App',
+                    Text('Auth0 App',
                         style: GoogleFonts.spaceGrotesk(
                           fontSize: 80,
                           height: 0.8,

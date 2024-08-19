@@ -5,7 +5,6 @@ import 'example_app.dart';
 void main() async {
 
    await dotenv.load();
-
   runApp(const ExampleApp());
 }
 
